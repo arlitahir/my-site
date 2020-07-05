@@ -17,16 +17,9 @@ body {
   padding: 0 16px;
 }
 
-.header-email:hover {
- color: #0000FF;
-}
-
-.header-phone:hover {
- color: #0000FF;
-}
-
 .page-header {
-  margin: 0 0 160px;
+  vertical-align: top;
+  margin: 0 20px 160px;
   padding: 32px 0 32px;
 }
 
@@ -47,11 +40,24 @@ body {
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
+  transition: .2s linear;
+}
+
+.header-email:hover {
+ color: #0000FF;
 }
 
 .header-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
+}
+
+.header-phone:hover {
+ color: #0000FF;
+}
+
+.header-logo {
+
 }
 
 .hero-image {
@@ -178,13 +184,13 @@ body {
 }
 
 .page-footer {
-  padding: 40px 0;
+  padding: 20px 0;
   background-color: #00417d;
   color: #ffffff;
 }
 
 .page-footer a {
-  margin-left: 56px;
+  margin-left: 70px;
   color: inherit;
   text-decoration: none;
   background-repeat: no-repeat;
@@ -192,11 +198,17 @@ body {
 }
 
 .footer-email {
+  font-size: 14px;
   padding-left: 30px;
   background-image: url("img/icon-email-footer.svg");
 }
 
 .footer-phone {
+  font-size: 14px;
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.footer-logo {
+  padding-right: 20px;
 }
