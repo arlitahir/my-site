@@ -7,18 +7,24 @@
     <title>Портфолио Junior верстальщика</title>
   </head>
 
-  <body>
+  <body class="page light-theme">
     <header class="page-header">
 	<div class="container">
-		<a class="header-email"
-			href="mailto:arlitahir000@gmail.com">arlitahir000@gmail.com
-		</a>
-		<a class="header-phone"
-			href="tel:+996555953659">+996 555 95 36 59
-		</a>
-		<a class="header-logo" href="https://vk.com/id265627846">
-			<img src="img/VK_Blue_Logo_t.png" width="30">
-		</a>
+    <div class="header-inner">
+    <button class="theme-button" type="button">Изменить тему</button>
+		
+    <nav class="nav">
+        <a class="header-email"
+      href="mailto:arlitahir000@gmail.com">arlitahir000@gmail.com
+    </a>
+    <a class="header-phone"
+      href="tel:+996555953659">+996 555 95 36 59
+    </a>
+    <a class="header-logo" href="https://vk.com/id265627846">
+      <img src="img/VK_Blue_Logo_t.png" width="30">
+    </a>
+  </nav>
+    </div>
 	</div>
     </header>
 
@@ -30,18 +36,32 @@
     </section>
 
     <section class="intro">
-	<div class="container">
-      <h2 class="subheading">Давайте познакомимся</h2>
-	<figure class="user-image">
-		<img src="img/Моя Ава.jpg" alt="Ну тут, крч ,должна быть моя фотка)">
+	   <div class="container">
+       <h2 class="subheading">Давайте познакомимся</h2>
+	   <figure class="user-image">
+           <img src="img/Моя Ава.jpg" alt="Ну тут, крч ,должна быть моя фотка)">
 	</figure>
+    <div>  
       <h3>Пара слов о себе</h3>
       <p>Меня зовут Тахир, я начинающий верстальщик!</p>
+           </div>
+           <div>
       <h3>Чем могу быть полезен</h3>
       <p>В скором времени я буду отличным верстальщиком! :D</p>
 	</div>
+    
+           <div class="skills">
+               <h3>Мои навыки</h3>
+               <dl class="skills-list">
+                   <dt class="skill-html">HTML</dt>
+                   <dd class="level"><div style="width: 60%">60%</div></dd>
+                   <dt class="skill-css">CSS</dt>
+                   <dd class="level"><div style="width: 40%" >40%</div></dd>
+               </dl>
+           </div>
+        </div>       
     </section>
-
+      
     <section class="portfolio">
 	<div class="container">
       <h2 class="subheading">Мои работы</h2>
@@ -71,5 +91,6 @@
 		</a>
 	</div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
