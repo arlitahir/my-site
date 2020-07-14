@@ -285,10 +285,14 @@
   padding: 32px 0 32px;
 }
 
-.dark-theme .page-header .container,
+.dark-theme .page-header .container {
+  max-width: 1408px;
+  text-align:right;
+
+}
 .dark-theme .page-footer .container {
   max-width: 1408px;
-  text-align: right;
+  text-align:center;
 }
 
 .dark-theme .page-header a {
@@ -448,6 +452,7 @@
 .dark-theme .project-image {
   margin: 0 0 24px;
   text-align: center;
+  border-radius: 20%;
 }
 
 .dark-theme .projects p {
@@ -484,7 +489,8 @@
 }
 
 .dark-theme .footer-email {
-  font-size: 10px;
+  font-family: Roboto;
+  font-size: 11px;
   padding-left: 30px;
   background-image: url("themes/basic-dark-theme/img/icon-email.svg");
   text-align:center;
@@ -492,7 +498,8 @@
 }
 
 .dark-theme .footer-phone {
-  font-size: 10px;
+  font-family: Roboto;
+  font-size: 11px;
   padding-left: 25px;
   background-image: url("themes/basic-dark-theme/img/icon-phone.svg");
   text-align: center;
