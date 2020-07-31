@@ -170,10 +170,9 @@
   background-image: url("img/icon-css.svg");
 }
 
-.light-theme .skill-JS {
+.light-theme .skill-js {
   font-family:  Georgia;
   font-size: 16px;
-  
 }
 
 .light-theme .level {
@@ -265,9 +264,55 @@
     text-align:center;
 }
 
+.light-theme .title-decoration {
+    color: #176ebe;
+    font-weight: 700;
+}
+
+.light-theme .cite {
+    font-weight: 700;
+    font-size: 17px;
+    background: linear-gradient(45deg, #863636 33%, #0D61BC 66%, #305b9a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .1s linear;
+}
+
+.light-theme .cite:hover {
+    font-weight: 700;
+    font-size: 18px;
+    background: linear-gradient(45deg, #305b9a 33%, #743939 66%, #863636);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 
 /*Dark theme*/
+.dark-theme .cite {
+    font-weight: 700;
+    font-size: 17px;
+    background: linear-gradient(45deg, #47ff5e 33%, #fcff52 66%, #f90202);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .1s linear;
+}
+
+.dark-theme .cite:hover {
+    font-weight: 700;#47ff5e
+    font-size: 18px;
+    background: linear-gradient(45deg, #f90202 33%, #fcff52 66%, #47ff5e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dark-theme .title-decoration {
+    color: #db674d;
+    font-weight: 700;
+
+
+}
+
 .dark-theme {
   margin: 0;
   min-width: 960px;
@@ -375,6 +420,7 @@
 }
 
 
+
 .dark-theme .hero-image p {
   margin: 0;
   font-size: 32px;
@@ -436,6 +482,7 @@
   background-image: url("themes/basic-dark-theme/img/icon-css.svg");
 }
 
+
 .dark-theme .level {
   margin: 4px 0 16px;
   padding: 0;
@@ -470,7 +517,10 @@
 .dark-theme .project-image {
   margin: 0 0 24px;
   text-align: center;
-  border-radius: 20%;
+}
+
+.dark-theme .image {
+    border-radius: 50px;
 }
 
 .dark-theme .projects p {
